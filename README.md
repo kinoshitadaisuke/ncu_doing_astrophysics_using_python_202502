@@ -1,1 +1,1 @@
-# doing_astrophysics_using_python_202502
+# Doing Astrophysics using Python
