@@ -41,22 +41,21 @@ git clone https://github.com/kinoshitadaisuke/ncu_doing_astrophysics_using_pytho
 |19/Feb/2025|13:00-13:50|00|Executing a Python script|
 |19/Feb/2025|14:00-15:50|01|Basic Python programming|
 |26/Feb/2025|13:00-15:50|02|Importing and using Python modules|
-|25/Sep/2025|13:00-15:50|03|Using Numpy for calculations|
-|05/Mar/2025|13:00-15:50|04|Visualisation of data using Matplotlib|
-|12/Mar/2025|13:00-15:50|05|Scientific calculations and analyses using SciPy|
-|19/Mar/2025|13:00-15:50|06|Building and querying relational database using Python|
-|26/Mar/2025|13:00-15:50|07|Astronomical calculations using Astropy|
-|02/Apr/2025|13:00-15:50|---|no class due to spring break|
-|09/Apr/2025|13:00-15:50|08|Blackbody radiation|
-|16/Apr/2025|13:00-15:50|09|Distribution of asteroids, stars, and galaxies|
-|23/Apr/2025|13:00-15:50|---|no class|
-|30/Apr/2025|13:00-15:50|10|Hubble diagram and expansion of the Universe|
-|07/May/2025|13:00-15:50|11|Estimating ages of star clusters|
-|14/May/2025|13:00-15:50|12|Periodicity analysis of astronomical time-series data|
-|21/May/2025|13:00-15:50|13|Source extraction and image alignment of astronomical images|
-|28/May/2025|13:00-15:50|14|Planetary motion and orbital integration|
-|04/Jun/2025|13:00-15:50|15|Classification of astronomical objects using machine learning|
-|11/Jun/2025|13:00-15:50|16|TBA|
+|05/Mar/2025|13:00-15:50|03|Using Numpy for calculations|
+|12/Mar/2025|13:00-15:50|04|Visualisation of data using Matplotlib|
+|19/Mar/2025|13:00-15:50|05|Scientific calculations and analyses using SciPy|
+|26/Mar/2025|13:00-15:50|06|Building and querying relational database using Python|
+|02/Apr/2025|13:00-15:50|07|Astronomical calculations using Astropy|
+|09/Apr/2025|13:00-15:50|---|no class due to spring break|
+|16/Apr/2025|13:00-15:50|08|Blackbody radiation|
+|23/Apr/2025|13:00-15:50|09|Distribution of asteroids, stars, and galaxies|
+|30/Apr/2025|13:00-15:50|---|no class|
+|07/May/2025|13:00-15:50|10|Hubble diagram and expansion of the Universe|
+|14/May/2025|13:00-15:50|11|Estimating ages of star clusters|
+|21/May/2025|13:00-15:50|12|Periodicity analysis of astronomical time-series data|
+|28/May/2025|13:00-15:50|13|Source extraction and image alignment of astronomical images|
+|04/Jun/2025|13:00-15:50|14|Planetary motion and orbital integration|
+|11/Jun/2025|13:00-15:50|15|Classification of astronomical objects using machine learning|
 |18/Jun/2025|13:00-15:50|---|no class|
 
 ## Jupyter Notebook files
