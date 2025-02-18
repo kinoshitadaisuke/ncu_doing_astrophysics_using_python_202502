@@ -48,8 +48,8 @@ git clone https://github.com/kinoshitadaisuke/ncu_doing_astrophysics_using_pytho
 |02/Apr/2025|13:00-15:50|07|Astronomical calculations using Astropy|
 |09/Apr/2025|13:00-15:50|---|no class due to spring break|
 |16/Apr/2025|13:00-15:50|08|Blackbody radiation|
-|23/Apr/2025|13:00-15:50|09|Distribution of asteroids, stars, and galaxies|
-|30/Apr/2025|13:00-15:50|---|no class|
+|23/Apr/2025|13:00-15:50|---|no class|
+|30/Apr/2025|13:00-15:50|09|Distribution of asteroids, stars, and galaxies|
 |07/May/2025|13:00-15:50|10|Hubble diagram and expansion of the Universe|
 |14/May/2025|13:00-15:50|11|Estimating ages of star clusters|
 |21/May/2025|13:00-15:50|12|Periodicity analysis of astronomical time-series data|
