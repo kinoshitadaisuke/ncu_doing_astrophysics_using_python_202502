@@ -45,8 +45,8 @@ git clone https://github.com/kinoshitadaisuke/ncu_doing_astrophysics_using_pytho
 |12/Mar/2025|13:00-15:50|04|Visualisation of data using Matplotlib|
 |19/Mar/2025|13:00-15:50|05|Scientific calculations and analyses using SciPy|
 |26/Mar/2025|13:00-15:50|06|Building and querying relational database using Python|
-|02/Apr/2025|13:00-15:50|07|Astronomical calculations using Astropy|
-|09/Apr/2025|13:00-15:50|---|no class due to spring break|
+|02/Apr/2025|13:00-15:50|---|no class due to spring break|
+|09/Apr/2025|13:00-15:50|07|Astronomical calculations using Astropy|
 |16/Apr/2025|13:00-15:50|08|Blackbody radiation|
 |23/Apr/2025|13:00-15:50|---|no class|
 |30/Apr/2025|13:00-15:50|09|Distribution of asteroids, stars, and galaxies|
