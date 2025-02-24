@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/09/17 16:24:35 (UT+8) daisuke>
+# Time-stamp: <2025/02/24 21:22:43 (CST) daisuke>
 #
 
 # importing pathlib module
