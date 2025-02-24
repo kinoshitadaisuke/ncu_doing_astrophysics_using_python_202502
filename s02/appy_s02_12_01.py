@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/09/17 17:31:39 (UT+8) daisuke>
+# Time-stamp: <2025/02/24 21:34:37 (CST) daisuke>
 #
 
 # importing statistics module
