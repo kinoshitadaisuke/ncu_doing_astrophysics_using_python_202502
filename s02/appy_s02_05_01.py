@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/09/17 16:49:07 (UT+8) daisuke>
+# Time-stamp: <2025/02/24 21:23:45 (CST) daisuke>
 #
 
 # importing shutil module
@@ -37,8 +37,8 @@ location_emacs = shutil.which ('emacs')
 # printing location of executable "emacs"
 print (f'location of command "emacs"      = "{location_emacs}"')
 
-# finding the location of executable "python3.12"
-location_python312 = shutil.which ('python3.12')
+# finding the location of executable "python3.13"
+location_python313 = shutil.which ('python3.13')
 
-# printing location of executable "python3.12"
-print (f'location of command "python3.12" = "{location_python312}"')
+# printing location of executable "python3.13"
+print (f'location of command "python3.13" = "{location_python313}"')
