@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/08/02 14:50:52 (UT+8) daisuke>
+# Time-stamp: <2025/02/24 21:38:19 (CST) daisuke>
 #
 
 # importing mpmath module
