@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/09/17 17:26:22 (UT+8) daisuke>
+# Time-stamp: <2025/02/24 21:33:15 (CST) daisuke>
 #
 
 # importing math module
