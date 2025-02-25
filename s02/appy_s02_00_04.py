@@ -1,14 +1,14 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/02/23 20:25:44 (CST) daisuke>
+# Time-stamp: <2025/02/25 11:54:30 (CST) daisuke>
 #
 
 # importing os module
 import os
 
 # target directory
-dir_target = '/etc'
+dir_target = '/usr/share/locale'
 
 # obtaining a list of files and directories at the directory "dir_target"
 list_files = os.scandir (path=dir_target)
