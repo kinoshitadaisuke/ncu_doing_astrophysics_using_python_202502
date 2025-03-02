@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/09/24 20:24:26 (UT+8) daisuke>
+# Time-stamp: <2025/03/02 12:54:20 (CST) daisuke>
 #
 
 # importing numpy module
@@ -21,7 +21,7 @@ print (f'  shape    = {array_t.shape}')
 print (f'  dtype    = {array_t.dtype}')
 print (f'  itemsize = {array_t.itemsize} byte')
 
-# appending one more data to "array_t"
+# appending one more element to "array_t"
 array_t = numpy.append (array_t, 11.0)
 
 # printing Numpy array
