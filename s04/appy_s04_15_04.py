@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/11 14:29:49 (CST) daisuke>
+# Time-stamp: <2025/03/11 23:00:04 (CST) daisuke>
 #
 
 # importing numpy module
@@ -19,7 +19,7 @@ import matplotlib.figure
 file_fits = 'hltau_alma.fits'
 
 # output PNG file name
-file_output = 'appy_s04_15_04.pdf'
+file_output = 'appy_s04_15_04.png'
 
 # opening FITS file
 with astropy.io.fits.open (file_fits) as hdu_list:
