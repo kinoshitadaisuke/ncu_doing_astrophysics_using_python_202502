@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.10
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/10/07 16:17:10 (UT+8) daisuke>
+# Time-stamp: <2025/03/13 20:28:34 (UT+08:00) daisuke>
 #
 
 # importing subprocess module
