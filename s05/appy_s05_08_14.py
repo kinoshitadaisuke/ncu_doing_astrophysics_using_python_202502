@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/14 10:35:30 (UT+08:00) daisuke>
+# Time-stamp: <2025/03/14 11:46:50 (UT+08:00) daisuke>
 #
 
 # importing urllib module
@@ -14,7 +14,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # URL of data file
-url_data = 'https://s3b.astro.ncu.edu.tw/appy_202409/data/solsys.data'
+url_data = 'https://s3b.astro.ncu.edu.tw/appy_202502/data/solsys.data'
 
 # output file name
 file_output = 'solsys.data'
