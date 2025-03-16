@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/16 12:20:07 (UT+08:00) daisuke>
+# Time-stamp: <2025/03/16 13:21:10 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -76,7 +76,7 @@ odr_model = scipy.odr.Model (func)
 
 # making data for ODR
 odr_data = scipy.odr.Data (array_x, array_y, \
-                           wd=1.0/array_xerr, we=1.0/array_yerr)
+                           wd=1.0/(array_xerr**2), we=1.0/(array_yerr**2))
 
 # making ODR object for fitting
 odr_fitting = scipy.odr.ODR (odr_data, odr_model, beta0=initial_guess)
