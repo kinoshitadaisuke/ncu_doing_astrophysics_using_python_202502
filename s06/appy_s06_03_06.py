@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/20 23:18:53 (UT+08:00) daisuke>
+# Time-stamp: <2025/03/20 23:43:26 (UT+08:00) daisuke>
 #
 
 # importing sqlite module
@@ -19,7 +19,7 @@ with contextlib.closing (sqlite3.connect (file_db)) as conn:
     cursor = conn.cursor ()
 
     # SQL command for a query
-    sql_query = 'select hip, ra_hms, dec_dms, vmag, bv, parallax, sptype ' \
+    sql_query = f'select hip, ra_hms, dec_dms, vmag, bv, parallax, sptype ' \
         + f'from hip where (parallax > 20 and sptype like "B%") ' \
         + f'order by parallax desc;'
 
