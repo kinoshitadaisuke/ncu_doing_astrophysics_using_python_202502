@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/26 09:25:46 (UT+08:00) daisuke>
+# Time-stamp: <2025/04/02 15:49:06 (UT+08:00) daisuke>
 #
 
 # importing astropy module
@@ -16,7 +16,7 @@ astropy.coordinates.solar_system_ephemeris.set ('de440')
 u_m = astropy.units.m
 
 # date/time in UTC
-t_str = '2024-11-01 04:00:00'
+t_str = '2025-04-15 04:00:00'
 t_utc = astropy.time.Time (t_str, format='iso', scale='utc')
 
 # location of observer: NCU main campus
