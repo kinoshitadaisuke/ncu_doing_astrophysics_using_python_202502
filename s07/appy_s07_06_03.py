@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/03/26 09:27:03 (UT+08:00) daisuke>
+# Time-stamp: <2025/04/03 13:07:41 (UT+08:00) daisuke>
 #
 
 # importing astropy module
@@ -49,6 +49,9 @@ print (f'Target name: "{object_name}"')
 print (f'  RA  = {ra:20s} = {coord.ra.deg:10.6f} [deg]')
 print (f'  Dec = {dec:20s} = {coord.dec.deg:+10.6f} [deg]')
 
+# clearing astroquery skyview cache
+astroquery.skyview.SkyView.clear_cache ()
+
 # getting a list of images
 list_image = astroquery.skyview.SkyView.get_image_list (position=coord, \
                                                         survey=survey)
@@ -74,7 +77,7 @@ print (f'Writing a FITS file "{file_output}"...')
 
 # writing FITS file
 hdu = astropy.io.fits.PrimaryHDU (data=data, header=header)
-hdu.writeto (file_output)
+hdu.writeto (file_output, overwrite=True)
 
 # printing status
 print (f'Done!')
