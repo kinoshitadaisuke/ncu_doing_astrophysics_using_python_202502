@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/04/12 20:09:45 (UT+08:00) daisuke>
+# Time-stamp: <2025/04/12 20:29:15 (UT+08:00) daisuke>
 #
 
 # importing urllib module
@@ -23,7 +23,9 @@ file_output = 'solar_spec.data'
 print (f'Fetching {url_data}...')
 
 # opening URL
-with urllib.request.urlopen (url_data) as fh_read:
+request = urllib.request.Request (url_data)
+request.add_header ('User-Agent', 'Mozilla/5.0 (X11; NetBSD x86_64; rv:128.0) Gecko/20100101 Firefox/128.0')
+with urllib.request.urlopen (request) as fh_read:
     # reading data
     data_byte = fh_read.read ()
 
