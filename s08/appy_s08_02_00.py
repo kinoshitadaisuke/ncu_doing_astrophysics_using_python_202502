@@ -1,7 +1,7 @@
 #!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/04/06 15:13:41 (UT+08:00) daisuke>
+# Time-stamp: <2025/04/12 20:09:45 (UT+08:00) daisuke>
 #
 
 # importing urllib module
@@ -14,7 +14,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # URL of data file
-url_data = 'https://www.nrel.gov/grid/solar-resource/assets/data/newguey2003.txt'
+url_data = 'https://www.nrel.gov/media/docs/libraries/grid/newguey2003.txt'
 
 # output file name
 file_output = 'solar_spec.data'
