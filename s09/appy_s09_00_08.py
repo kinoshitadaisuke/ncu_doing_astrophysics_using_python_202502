@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/04 14:16:58 (UT+8) daisuke>
+# Time-stamp: <2025/04/17 19:02:40 (UT+08:00) daisuke>
 #
 
 # importing astropy module
@@ -11,7 +11,7 @@ import astropy.time
 import astroquery.jplhorizons
 
 # date/time
-date = astropy.time.Time ('2025-01-01 00:00:00')
+date = astropy.time.Time ('2025-05-01 00:00:00')
 
 # target asteroid name
 asteroid = 'Ceres'
