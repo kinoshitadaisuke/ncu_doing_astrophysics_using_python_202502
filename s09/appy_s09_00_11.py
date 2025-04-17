@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/06 08:08:21 (UT+8) daisuke>
+# Time-stamp: <2025/04/17 20:04:24 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -15,7 +15,7 @@ import matplotlib.figure
 import matplotlib.backends.backend_agg
 
 # date/time
-date = astropy.time.Time ('2025-01-01 00:00:00')
+date = astropy.time.Time ('2025-05-01 00:00:00')
 
 # input data file name
 file_input = 'asteroids_000100.data'
