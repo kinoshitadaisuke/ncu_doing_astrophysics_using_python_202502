@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/04 14:08:49 (UT+8) daisuke>
+# Time-stamp: <2025/04/17 18:43:16 (UT+08:00) daisuke>
 #
 
 # importing gzip module
@@ -103,6 +103,8 @@ with gzip.open (file_catalogue, 'rb') as fh:
             print (f'  residual = {residual}')
             print (f'  flag     = {flag}')
             print (f'  lastobs  = {lastobs}')
+        else:
+            break
 
         # increment counter
         counter += 1
