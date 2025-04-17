@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/04 14:25:18 (UT+8) daisuke>
+# Time-stamp: <2025/04/17 20:05:15 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -19,7 +19,7 @@ import astroquery.jplhorizons
 file_output = 'asteroids_001000.data'
 
 # date/time
-date = astropy.time.Time ('2025-01-01 00:00:00')
+date = astropy.time.Time ('2025-05-01 00:00:00')
 
 # number of asteroids to get position
 n_asteroids = 1000
