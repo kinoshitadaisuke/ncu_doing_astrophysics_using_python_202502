@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/06 08:11:18 (UT+8) daisuke>
+# Time-stamp: <2025/04/19 10:47:35 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -17,7 +17,7 @@ import matplotlib.figure
 import matplotlib.backends.backend_agg
 
 # date/time
-date = astropy.time.Time ('2025-01-01 00:00:00')
+date = astropy.time.Time ('2025-05-01 00:00:00')
 
 # input data file name
 file_input = 'asteroids_100000.data'
@@ -70,8 +70,8 @@ print (f'Finished reading data file!')
 print (f"Now, generating a plot of asteroid distribution on the sky...")
 
 # ecliptic plane
-ecl_lon = numpy.linspace (0.001, 359.999, 1000) * u_deg
-ecl_lat = numpy.zeros (1000) * u_deg
+ecl_lon   = numpy.linspace (0.001, 359.999, 1000) * u_deg
+ecl_lat   = numpy.zeros (1000) * u_deg
 ecl_coord = astropy.coordinates.GeocentricMeanEcliptic (lon=ecl_lon, \
                                                         lat=ecl_lat, \
                                                         obstime=date)
@@ -80,8 +80,8 @@ ecl_ra  = ecl_coord.transform_to (astropy.coordinates.ICRS ()) \
 ecl_dec = ecl_coord.transform_to (astropy.coordinates.ICRS ()).dec.radian
 
 # galactic plane
-gal_lon = numpy.linspace (0.001, 359.999, 1000) * u_deg
-gal_lat = numpy.zeros (1000) * u_deg
+gal_lon   = numpy.linspace (0.001, 359.999, 1000) * u_deg
+gal_lat   = numpy.zeros (1000) * u_deg
 gal_coord = astropy.coordinates.Galactic (l=gal_lon, \
                                           b=gal_lat)
 gal_ra  = gal_coord.transform_to (astropy.coordinates.ICRS ()) \
