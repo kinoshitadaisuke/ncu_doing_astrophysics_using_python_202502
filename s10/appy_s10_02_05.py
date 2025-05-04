@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/11/12 09:50:03 (UT+8) daisuke>
+# Time-stamp: <2025/05/04 11:41:46 (UT+08:00) daisuke>
 #
 
 # importing git module
