@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/03 13:14:03 (UT+8) daisuke>
+# Time-stamp: <2025/05/19 12:35:52 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -22,7 +22,7 @@ u_day = astropy.units.day
 file_data = 'appy_s12_00_00.data'
 
 # output file name
-file_output = 'appy_s12_00_02.png'
+file_output = 'appy_s12_00_02.pdf'
 
 # trial period
 p_hr  = 1.0 * u_hr
