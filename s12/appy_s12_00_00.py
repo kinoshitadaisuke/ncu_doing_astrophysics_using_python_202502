@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/03 13:10:21 (UT+8) daisuke>
+# Time-stamp: <2025/05/19 12:32:55 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -39,12 +39,12 @@ delta = 2.0 * pi * 0.25
 mag_mean = 20.0
 
 # start of observation
-date_start = '2025-01-01T12:00:00'
+date_start = '2025-07-01T12:00:00'
 t_start    = astropy.time.Time (date_start, scale='utc', format='isot')
 mjd_start  = t_start.mjd
 
 # end of observation
-date_end = '2025-01-01T20:00:00'
+date_end = '2025-07-01T20:00:00'
 t_end    = astropy.time.Time (date_end, scale='utc', format='isot')
 mjd_end  = t_end.mjd
 
