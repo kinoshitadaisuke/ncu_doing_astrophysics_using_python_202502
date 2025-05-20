@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/05 13:08:01 (UT+8) daisuke>
+# Time-stamp: <2025/05/20 10:15:11 (UT+08:00) daisuke>
 #
 
 # importing argparse module
@@ -95,7 +95,7 @@ with open (file_out, 'w') as fh_out:
 
     # writing data to file
     for i in range ( len (freq) ):
-        record = f"{freq[i]:15.8f} {1.0 / freq[i]:15.8f}" \
-            + f" {1.0 / freq[i] * 24.0:15.8f} {1.0 / freq[i] * 1440:15.8f}" \
-            + f" {power[i]:15.8f}\n"
+        record = f"{freq[i]:12.8f} {1.0 / freq[i]:16.8f}" \
+            + f" {1.0 / freq[i] * 24.0:16.8f} {1.0 / freq[i] * 1440:16.8f}" \
+            + f" {power[i]:12.8f}\n"
         fh_out.write (record)
