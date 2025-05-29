@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/22 20:10:12 (UT+8) daisuke>
+# Time-stamp: <2025/05/29 19:31:58 (UT+08:00) daisuke>
 #
 
 # importing urllib module
