@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/22 17:51:13 (UT+8) daisuke>
+# Time-stamp: <2025/05/29 12:21:27 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -21,7 +21,7 @@ import matplotlib.backends.backend_agg
 file_fig = 'appy_s14_02_07.png'
 
 # date/time
-t_str = '2025-01-01T12:00:00'
+t_str = '2025-07-01T12:00:00'
 t     = astropy.time.Time (t_str, scale='utc', format='isot')
 
 # target list
@@ -108,6 +108,9 @@ for i in range (n_asteroids):
 
 # printing status
 print (f'Finished retrieving positions of asteroids!')
+
+# showing title
+ax.set_title (f'Positions of 500 asteroids on {t_str}')
 
 # plotting asteroids
 ax.plot (asteroid_x, asteroid_z, \
