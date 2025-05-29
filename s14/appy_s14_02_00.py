@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2024/12/22 17:32:46 (UT+8) daisuke>
+# Time-stamp: <2025/05/29 12:01:57 (UT+08:00) daisuke>
 #
 
 # importing numpy module
@@ -25,7 +25,7 @@ file_fig = 'appy_s14_02_00.png'
 list_obj = ['399', '499']
 
 # start date
-date_start = '2015-01-01'
+date_start = '2010-01-01'
 
 # end date
 date_end   = '2040-01-01'
