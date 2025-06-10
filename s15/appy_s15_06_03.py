@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/01/04 19:09:33 (UT+8) daisuke>
+# Time-stamp: <2025/06/10 11:34:11 (UT+08:00) daisuke>
 #
 
 # data file
