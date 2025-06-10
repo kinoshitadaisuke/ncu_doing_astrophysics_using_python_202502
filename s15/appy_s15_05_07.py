@@ -1,7 +1,7 @@
-#!/usr/pkg/bin/python3.12
+#!/usr/pkg/bin/python3.13
 
 #
-# Time-stamp: <2025/01/04 18:02:14 (UT+8) daisuke>
+# Time-stamp: <2025/06/10 11:22:32 (UT+08:00) daisuke>
 #
 
 # importing numpy module
